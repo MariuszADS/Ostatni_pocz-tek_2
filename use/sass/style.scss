@@ -1,0 +1,38 @@
+@use 'colors' as c;
+
+@mixin size($size) {
+	width: $size;
+	height: $size;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: gray;
+	font-family: sans-serif;
+}
+
+.square {
+	margin: 30px;
+
+	border: 5px solid black;
+	display: inline-block;
+
+	@include size(100px);
+}
+
+.one {
+	background-color: c.$red;
+}
+
+.two {
+	background-color: c.$green;
+}
+
+.three {
+	background-color: c.$blue;
+}

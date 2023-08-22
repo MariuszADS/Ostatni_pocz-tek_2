@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  font-size: 30px;
+  font-family: "sans-serif";
+  margin: 10px 0 0 50px;
+}
+
+li:nth-child(even) {
+  color: lime;
+}
+
+span:first-of-type {
+  color: yellow;
+}
+
+.test li:first-child {
+  color: tomato;
+}
+
+.test li:last-child {
+  color: tomato;
+}
+
+.one:hover {
+  color: purple;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.two:hover {
+  color: purple;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.four:hover {
+  color: purple;
+  font-weight: bold;
+  transition: color 0.3s;
+}/*# sourceMappingURL=zad_pseudo.css.map */

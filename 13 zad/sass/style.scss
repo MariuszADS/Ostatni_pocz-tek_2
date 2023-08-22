@@ -1,0 +1,23 @@
+body {
+	background-color: gray;
+    height: 100vh;
+   
+}
+
+$width:200px;
+$heigth:200px;
+$first-bg-color:lime;
+$second-bg-color:tomato;
+
+div{
+    width: $width;
+    height: $heigth;
+}
+
+.one{
+    background-color: $first-bg-color;
+}
+
+.two{background-color: $second-bg-color;}
+
+

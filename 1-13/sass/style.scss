@@ -1,0 +1,36 @@
+:root{
+    --main-color: lime;
+}
+
+$main-color:tomato;
+
+body {
+	background-color: gray;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    // display: flex;
+    flex-direction: column;
+}
+
+.test{
+    color: white;
+    text-transform: uppercase;
+    font-size: 46px;
+
+}
+.s{
+width: 200px;
+height: 50px;
+margin: 20px auto;
+border: solid 3px black;
+}
+
+.we{
+    background-color: lime;
+}
+
+.qw{
+    background-color: tomato;
+}

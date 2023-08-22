@@ -1,0 +1,17 @@
+body {
+  background-color: gray;
+  height: 100vh;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.one {
+  background-color: lime;
+}
+
+.two {
+  background-color: tomato;
+}/*# sourceMappingURL=style.css.map */

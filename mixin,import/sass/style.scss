@@ -1,0 +1,56 @@
+@import './colors';  //IMPORT PRZESTARZALY I MALO WYDAJNY
+
+@mixin addons{
+    border-radius: 25px;
+    background-color: gold;
+}
+@mixin color($bg-color){
+    background-color: $bg-color;
+}
+
+@mixin size($size){
+    width: $size;
+    height: $size;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    font-family: sans-serif;
+}
+
+.square{
+    margin: 30px;
+    // height: 200px;
+    // width: 200px;
+    border: 5px solid black;
+    display: inline-block;
+    @include addons;
+    @include size(100px)
+}
+
+// .success{
+//     @include color(lime)
+// }
+
+// .warning{
+//     @include color(tomato)
+// }
+
+
+.one{
+    background-color: $red;
+}
+
+.two{
+    background-color: $green;
+}
+
+.three{
+    background-color: $blue;
+}
