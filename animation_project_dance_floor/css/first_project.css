@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  font-size: 30px;
+  font-family: "sans-serif";
+  color: white;
+}
+
+.wrapper {
+  margin: 50px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.square {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 2px;
+  animation: fade 1.4s infinite;
+}
+
+.square:nth-child(2n) {
+  animation: fade 1s infinite;
+}
+
+.square:nth-child(3n) {
+  animation: fade 0.5s infinite;
+}
+
+@keyframes fade {
+  10% {
+    opacity: 1;
+    background-color: rgb(231, 49, 231);
+  }
+  50% {
+    opacity: 0;
+    background-color: #ffffff;
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(231, 49, 231);
+  }
+}/*# sourceMappingURL=first_project.css.map */

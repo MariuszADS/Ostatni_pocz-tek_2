@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 30px;
+  font-family: "sans-serif";
+  color: white;
+}
+
+.sky {
+  height: 40vh;
+  background-color: skyblue;
+}
+
+.sun {
+  position: relative;
+  top: 6%;
+  left: 3%;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: gold;
+  animation-fill-mode: backwards;
+}
+
+.grass {
+  height: 5vh;
+  background-color: lime;
+}
+
+.road {
+  height: 10vh;
+  background-color: gray;
+}
+
+.ground {
+  height: 60vh;
+  background-color: rgb(90, 42, 42);
+}
+
+@keyframes sun_goes_down {
+  0% {
+    top: 6%;
+  }
+  70% {
+    top: 150%;
+    opacity: 0;
+  }
+  0% {
+    top: 6%;
+  }
+}/*# sourceMappingURL=sun_car.css.map */
