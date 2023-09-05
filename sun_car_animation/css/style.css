@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+.square {
+  margin: 30px;
+  border: 5px solid black;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  background-color: tomato;
+}
+
+.two {
+  background-color: lime;
+}
+
+.three {
+  background-color: cyan;
+}/*# sourceMappingURL=style.css.map */lor: royalblue;
+}/*# sourceMappingURL=style.css.map */dth: 700px;
+    background-color: lime;
+  }
+  100% {
+    width: 1000px;
+    background-color: orange;
+  }
+  0%, 100% {
+    width: 400px;
+    background-color: yellow;
+  }
+  50% {
+    width: 700px;
+    background-color: lime;
+  }
+  from {
+    width: 400px;
+    background-color: yellow;
+  }
+  to {
+    width: 1000px;
+    background-color: orange;
+  }
+}
+.square:hover {
+  animation-play-state: paused;
+}/*# sourceMappingURL=style.css.map */
