@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(49, 48, 48);
+	font-family: 'sans-serif';
+	font-size: 36px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    
+}
+
+/* PARENT */
+section {
+	width: 200vh;
+	height: 30vh;
+	background-color: gray;
+	margin: 5px;
+}
+
+/* FIRST SECTION */
+.first{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 100px;
+}
+/* SECOND SECTION*/
+.second {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+/* THIRD SCECTION */
+.third {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+	align-items: center;
+}
+
+/* DISTRIBUTES OF COLORS */
+.one {
+	background-color: gold;
+}
+.two {
+	background-color: lime;
+}
+.three{
+    background-color: royalblue;
+}
+.four{
+    background-color: tomato;
+}
