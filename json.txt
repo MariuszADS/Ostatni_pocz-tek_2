@@ -1,0 +1,84 @@
+{
+	"workbench.colorTheme": "Tokyo Night Storm",
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"editor.wordWrap": "on",
+	"editor.linkedEditing": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "block",
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00bfff",
+		"editorBracketHighlight.foreground4": "#7cfc00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"prettier.bracketSameLine": true,
+	"emmet.variables": {
+		"lang": "pl"
+	},
+	"window.zoomLevel": 2,
+
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/sun_car_animation/css"
+		}
+	],
+	"explorer.confirmDelete": false
+}
+
+// "key":"value"
+
+// {
+//     "files.autoSave": "afterDelay",
+//     "editor.formatOnSave": true,
+//     "workbench.iconTheme": "material-icon-theme",
+//     "prettier.arrowParens": "avoid",
+//     "prettier.jsxSingleQuote": true,
+//     "prettier.bracketSameLine": true,
+//     "prettier.semi": false,
+//     "prettier.singleQuote": true,
+//     "prettier.useTabs": true,
+//     "prettier.printWidth": 120,
+//     "explorer.confirmDragAndDrop": false,
+//     "editor.wordWrap": "on",
+//     "breadcrumbs.enabled": false,
+//     "editor.linkedEditing": true,
+//     "editor.defaultFormatter": "esbenp.prettier-vscode",
+//     "editor.cursorBlinking": "expand",
+//     "editor.bracketPairColorization.enabled": true,
+//     "liveServer.settings.donotShowInfoMsg": true,
+//     "workbench.colorCustomizations": {
+//        "editorBracketHighlight.foreground1": "#ffd700",
+//        "editorBracketHighlight.foreground2": "#ff00ff",
+//        "editorBracketHighlight.foreground3": "#00bfff",
+//        "editorBracketHighlight.foreground4": "#7cfc00",
+//        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+//     },
+//     "[html]": {
+//         "editor.defaultFormatter": "vscode.html-language-features"
+//     },
+//     "emmet.syntaxProfiles": {
+//         "html": {
+//             "inline_break": 2
+//        }
+//     },
+//     "emmet.variables": {
+//        "lang": "pl"
+//     }
+// }
