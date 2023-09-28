@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 30px;
+  font-family: "sans-serif";
+  color: white;
+  overflow: hidden;
+}
+
+.sky {
+  height: 40vh;
+  background-color: skyblue;
+  animation: sky_night linear 7.5s infinite;
+  animation-fill-mode: backwards;
+}
+
+.sun {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: gold;
+  animation: sun_goes_down linear 7.5s infinite;
+  animation-fill-mode: backwards;
+  box-shadow: 0 0 70px yellow;
+}
+
+.grass {
+  height: 5vh;
+  background-color: lime;
+}
+
+.road {
+  height: 10vh;
+  background-color: gray;
+}
+
+.ground {
+  height: 60vh;
+  background-color: rgb(90, 42, 42);
+}
+
+@keyframes sun_goes_down {
+  0% {
+    top: 6%;
+  }
+  70% {
+    top: 150%;
+    opacity: 0;
+  }
+  0% {
+    top: 6%;
+  }
+}
+@keyframes sky_night {
+  0% {
+    background-color: skyblue;
+  }
+  50% {
+    background-color: rgb(42, 42, 42);
+  }
+  0% {
+    background-color: skyblue;
+  }
+}
+.fa-solid {
+  position: relative;
+  top: 35%;
+  left: 2%;
+  animation: car_moving linear 3.1s infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes car_moving {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+  0% {
+    left: 0%;
+  }
+}
+@keyframes circle_moving0 {
+  0% {
+    left: 8.7%;
+  }
+  100% {
+    left: 100%;
+  }
+  0% {
+    left: 8.7%;
+  }
+}
+@keyframes circle_moving1 {
+  0% {
+    left: 3.5%;
+  }
+  100% {
+    left: 100%;
+  }
+  0% {
+    left: 3.5%;
+  }
+}/*# sourceMappingURL=sun_car.css.map */

@@ -1,0 +1,25 @@
+body {
+  background-color: gray;
+}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+p [href=test] {
+  color: gold;
+}
+
+a[href]::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  padding-left: 10px;
+}
+
+a[href$=doc]::before {
+  background: url('https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Docs-icon.png" width="128" height="128"') no-repeat;
+}/*# sourceMappingURL=atrybuty.css.map */

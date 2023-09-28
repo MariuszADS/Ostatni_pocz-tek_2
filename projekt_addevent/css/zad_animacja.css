@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: gray;
+  font-size: 30px;
+  font-family: "sans-serif";
+}
+
+div {
+  width: 300px;
+  height: 300px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: green;
+  animation: move_circle 2s 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move_circle {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: blue;
+  }
+}
+.square {
+  background-color: red;
+  animation: move_square 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move_square {
+  0% {
+    width: 300px;
+    height: 300px;
+  }
+  50% {
+    width: 600px;
+    height: 300px;
+  }
+  100% {
+    width: 300px;
+    height: 600px;
+    background-color: gold;
+  }
+}/*# sourceMappingURL=zad_animacja.css.map */
